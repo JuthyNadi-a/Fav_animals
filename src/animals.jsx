@@ -120,6 +120,7 @@ export const animals = [
   { name: 'zebra', likes: 0 },
 ];
 
+
 export const birds = [
   { name: 'Crow', likes: 0 },
   { name: 'Peacock', likes: 0 },
@@ -144,3 +145,4 @@ export const birds = [
   { name: 'Stork', likes: 0 },
   { name: 'Woodpecker', likes: 0 },
 ];
+export default animals;

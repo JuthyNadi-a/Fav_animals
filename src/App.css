@@ -1,3 +1,24 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  background-color: rgb(9, 52, 79);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex: 1;
+  font-size: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(209, 218, 226);
+  padding: 1vw;
+  margin: 1vw;
+}
 h1{
   text-align: center;
   margin: 0;
@@ -28,4 +49,15 @@ label{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+.mainCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+.maincard{
+  margin: 2vw;
+  color: rgb(9, 52, 79);
+  background-color: rgb(202, 207, 211);
 }

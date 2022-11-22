@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:ital@0;1&family=Montserrat&family=Ms+Madi&family=Titan+One&display=swap');
 body {
   margin: 0;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Titan One', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overscroll-behavior: none;

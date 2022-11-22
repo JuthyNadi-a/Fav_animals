@@ -8,8 +8,8 @@ const Card = (props) =>{
             <h1>{props.name}</h1>
             <div className='likes'>
                 <p id='like'> ♥️ {props.likes}</p>
-                <button onClick={props.addLikes} className='addlikes btn'><span class="material-symbols-outlined">thumb_up</span></button>
-                <button onClick={props.removeLikes} className='removelikes btn'><span class="material-symbols-outlined">thumb_down</span></button>
+                <button onClick={props.addLikes} className='addlikes btn'><span className="material-symbols-outlined">thumb_up</span></button>
+                <button onClick={props.removeLikes} className='removelikes btn'><span className="material-symbols-outlined">thumb_down</span></button>
             </div>
         </div>
     )

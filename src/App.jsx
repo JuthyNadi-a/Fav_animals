@@ -10,9 +10,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="content">
-        <div>
-        <BrowserRouter>
+        <BrowserRouter className="content">
           <div>
             <nav>
               <ul>
@@ -38,10 +36,16 @@ class App extends Component {
             </Routes>
           </div>
         </BrowserRouter>
-        </div>
-      </div>
     )
   }
 }
 
 export default App;
+
+
+/* 
+- state in app.js
+- handlers should be in same place where state is
+- name, 
+- data checks if it is animals or birds
+*/

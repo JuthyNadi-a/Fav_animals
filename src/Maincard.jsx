@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Maincard.css'
 const Maincard = (props) => {
     return (
         <div className='maincard' onClick={props.click}>

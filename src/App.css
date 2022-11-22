@@ -55,9 +55,13 @@ label{
   justify-content: center;
   align-items: center;
   margin: 2vw;
+  font-size: 1.5rem;
 }
 .maincard{
   margin: 2vw;
   color: rgb(9, 52, 79);
   background-color: rgb(202, 207, 211);
+}
+.maincard img {
+  padding: 2rem;
 }
